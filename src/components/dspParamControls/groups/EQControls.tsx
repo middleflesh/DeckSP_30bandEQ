@@ -42,59 +42,48 @@ export const EQControls: FC<{}> = ({ }) => {
         <EQDataProvider>
             <PanelSection title='Equalizer'>
                 <EffectInfo effect='equalizer'>
+
                     <PanelSectionRow>
                         <ParameterToggle parameter='tone_enable' />
                     </PanelSectionRow>
                     <PanelSectionRow>
                         <PresetDropdown type='eq' />
                     </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='25' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='40' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='63' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='100' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='160' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='250' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='400' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='630' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='1000' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='1600' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='2500' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='4000' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='6300' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='10000' />
-                    </PanelSectionRow>
-                    <PanelSectionRow>
-                        <EQParameterSlider parameter='16000' />
-                    </PanelSectionRow>
-                </EffectInfo>
-            </PanelSection>
-        </EQDataProvider >
+                    <PanelSectionRow><EQParameterSlider parameter='25' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='50' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='63' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='80' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='90' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='100' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='110' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='120' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='130' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='140' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='150' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='160' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='200' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='250' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='315' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='400' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='500' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='630' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='800' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='1000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='1250' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='1600' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='2000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='2500' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='3150' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='4000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='5000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='6300' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='8000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='10000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='12500' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='16000' /></PanelSectionRow>
+                    <PanelSectionRow><EQParameterSlider parameter='20000' /></PanelSectionRow>
+        </EffectInfo>
+    </PanelSection>
+</EQDataProvider>
     );
 }
